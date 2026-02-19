@@ -1,0 +1,6 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+data/*.csv
+data/*.parquet
+# Sauf si tu as des petits fichiers d'exemple

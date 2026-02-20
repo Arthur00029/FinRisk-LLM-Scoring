@@ -1,0 +1,24 @@
+# fichier générer par IA 
+# --- DONNÉES ---
+# On ne suit jamais les CSV bruts (trop lourds)
+*.csv
+# Si tes fichiers Parquet sont très gros, ignore-les aussi
+*.parquet
+
+# --- MODÈLES ---
+# On ignore les fichiers de modèles s'ils dépassent 100Mo
+# (Mais garde ton .txt s'il est léger)
+*.pkl
+*.model
+
+# --- PYTHON ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- SYSTÈME ---
+.DS_Store
+Thumbs.db
